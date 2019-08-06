@@ -5,6 +5,7 @@ The goal of this project is to train a double-jointed arm to reach target locati
 This project is intended to provide an opportunity for students to gain more experience using Unity’s ML-Agents machine learning toolset and apply their knowledge of  Asynchronous Advantage Actor-Critic (A3C), Deep Deterministic Policy Gradient (DDPG), or Proximal Policy Optimization (PPO) algorithms to train a Deep Reinforcement Learning (DRL) agent to perform a task.  The task is to train a double-jointed arm to track a target location as it orbits the arms anchor point.  The defined task environment includes 33 variables which include position, rotation, velocity, and angular velocities of the arm.  The action performed by the agent is a four element vector corresponding to the torque at each of the two joints.  Each element in the vector is a number that ranges from -1 to +1.  A reward of +0.1 is given to the agent for every step the agent’s hand is touching the target area.  There are two versions of the environment which include a single agent or 20 agent distributed training scenario. The task is considered solved when the agent yields an average score of +30 over 100 consecutive episodes.
 
 ## Dependencies (for RTX 2080 Super GPU)
+- https://github.com/udacity/deep-reinforcement-learning#dependencies
 - PyTorch v1.1.0
 - Python 3.7
 - CUDA 10.0
